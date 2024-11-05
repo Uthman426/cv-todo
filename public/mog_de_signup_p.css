@@ -1,0 +1,62 @@
+#sign_up{
+    width: 50%;
+    margin: auto;
+    color: yellowgreen;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    margin-top: em;
+    margin-right: 10em;
+}
+.form{
+    margin: auto;
+    width: 70%;
+    text-align: left;
+    margin-left: 30em; 
+}
+label{
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+form{
+    margin-top: 20px;
+}
+.profile_pic{
+    width: 10%;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 16em;
+}
+.profile_pic i{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+input{
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-bottom: 2px solid yellowgreen;
+}
+input:focus{
+    background-color:gray;
+    color: white;
+}
+.signup_box{
+    width: 11%;
+    height: 80px;
+    margin: auto;
+    background-color: greenyellow;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 19em;
+    
+}
+#sign_upt{
+    font-size: 30px;
+}
+.with_us{
+    margin-left: 5em;
+    margin-top: 20px;
+    font-size: 30px;
+}

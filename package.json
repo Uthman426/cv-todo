@@ -1,0 +1,27 @@
+{
+  "name": "mog-de",
+  "version": "1.0.0",
+  "main": "mog_de.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon mog_de.js",
+    "dev": "nodemon mog_de.js"
+  },
+  "author": "uthman",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body": "^5.1.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.7",
+    "parser": "^0.1.4",
+    "path": "^0.12.7",
+    "paystack": "^2.0.1"
+  }
+}

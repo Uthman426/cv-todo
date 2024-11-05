@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="job.css">
+  <script src="job.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <section>
+    <div class="navbar">
+      <div class="number_job">
+        Number of jobs :<input id="display_number" type="text">
+      </div>
+      <div class="user">
+        User: <input id="username" type="text">
+      </div>
+      <div class="logout">
+        <button id="logout">Logout</button>
+      </div>
+    </div>
+    <h1>Your Jobs</h1>
+     <div class="displayofjobs" style="display: flex; justify-content: space-between;">
+     <!-- <div class="jobs">
+        <div class="company">Company : <input id="company" type="text"></div>
+        <div class="position"> Position : <input id="position" type="text"></div>
+        <div class="status">Status : <input id="status" type="text"></div>
+        <div class="date"> Date : <input id="date" type="text"></div>
+        <div class="e_d">
+          <button id="edit"> Edit</button>
+          <button id="del">Delete</button>
+        </div>
+      </div> -->
+    </div> 
+    <h2>Create Your Dream Job</h2>
+    <div class="create_job">
+         <input class="enter_company" placeholder="Company" type="text"><br>
+         <input class="enter_position"  placeholder="position" type="text"><br>
+         <input class="enter_status" placeholder="status"  type="text"><br>
+         <button class="job_create">create job</button>
+    </div>
+  </section>
+</body>
+
+</html>
