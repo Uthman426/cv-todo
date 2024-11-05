@@ -12,7 +12,7 @@ app.use('/member',member)
 app.use('/job', job)
 
 app.use('/',express.static(path.join(__dirname,'public')))
-const url="mongodb://localhost:27017/newmog_de"
+const url="mongodb+srv://uthmanolaleke:Q46G7kltmdOBx4ga@firstwork.odqdn.mongodb.net/?retryWrites=true&w=majority&appName=firstwork"
 const startServer =async ()=>{
     try{
         await connectdb(url,()=>{
